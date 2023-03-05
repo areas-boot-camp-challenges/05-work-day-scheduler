@@ -1,3 +1,17 @@
+/* Christian’s CSS */
+.past {
+  background-color: #d3d3d3;
+}
+
+.present {
+  background-color: #ff6961;
+}
+
+.future {
+  background-color: #77dd77;
+}
+
+/* Starter Code CSS */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;

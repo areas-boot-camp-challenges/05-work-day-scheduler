@@ -18,21 +18,116 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
+  
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+    <header>
+      <h1 id="currentDay"></h1>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">6 a.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">7 a.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">8 a.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">9 a.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">10 a.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">11 a.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">12 p.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">1 p.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">2 p.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">3 p.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">4 p.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">5 p.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+            <div class="time-block">
+              <div class="row">
+                <div class="col-md-2 hour">6 p.m.</div>
+                <textarea class="col-md-8 description"></textarea>
+                <button class="col-md-2 saveBtn">Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
